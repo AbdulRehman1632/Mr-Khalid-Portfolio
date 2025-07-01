@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+}
+
+
+@font-face {
+    font-family:sans;
+    src: url(../public/assets/fonts/OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family:dance;
+    src: url(../public/assets/fonts/DancingScript-Medium.ttf);
+}
+
+@font-face {
+    font-family: GV;
+    src: url(../public/assets/fonts/GV.ttf);
+}
+
+h1{
+    font-family: sans;
+}
+
