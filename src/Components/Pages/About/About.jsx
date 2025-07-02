@@ -13,6 +13,7 @@ const About = () => {
 
   return (
     <>
+   
       <Box
         sx={{
           display: 'flex',

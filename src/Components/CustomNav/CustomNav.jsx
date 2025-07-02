@@ -42,14 +42,14 @@ const CustomNav = () => {
 
   const contactInfo = (
     <Box sx={{ textAlign: isMobile ? 'center' : 'left' }}>
-      <Typography variant="h5" gutterBottom fontWeight="bold">
-        San Jose
-      </Typography>
+      {/* <Typography variant="h5" gutterBottom fontWeight="bold">
+        Karachi,Pakistan
+      </Typography> */}
       <Typography
         sx={{ letterSpacing: '0.5px', fontSize: '1.1em', marginBottom: '5px' }}
         variant="body1"
       >
-        123 Street, City
+        43, Block B Street No. 4 S.M.C.H.S Karachi – Pakistan
       </Typography>
       <Typography variant="body1">Email: hello@example.com</Typography>
       <Typography variant="body1">Phone: +123 456 7890</Typography>

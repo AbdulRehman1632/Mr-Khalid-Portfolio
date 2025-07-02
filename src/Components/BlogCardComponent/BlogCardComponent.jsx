@@ -39,10 +39,15 @@ const BlogCardComponent = () => {
                 <Typography
                   variant="h4"
                   fontWeight="bold"
+                  
                   sx={{
                     fontFamily: 'GV',
                     fontSize: '1.6rem',
                     textAlign: 'center',
+                    background: 'linear-gradient(90deg, #00f2fe, #4facfe, #00c9a7, #43e97b)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+
                   }}
                 >
                   {blog.title}

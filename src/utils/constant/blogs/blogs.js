@@ -70,7 +70,7 @@ export const blogs = [
   id: 'engaging-with-the-community',
   title: 'Engaging with the Community',
   summary: 'Muhammad Khalid Ali mentors emerging filmmakers through active outreach.',
-  image: 'https://res.cloudinary.com/dpm8fa6gn/image/upload/v1750853312/view-wild-parrot_g5gue5.jpg', // update if needed
+  image: 'https://res.cloudinary.com/dpm8fa6gn/image/upload/v1751454994/blog6_bphuss.png', // update if needed
   // vip: true,
   content: `
     <p>Beyond his achievements in production, <strong>Muhammad Khalid Ali</strong> has been a vocal supporter of the creative community. His efforts go beyond the camera to the people behind it.</p>

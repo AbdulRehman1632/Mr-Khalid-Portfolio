@@ -11,7 +11,9 @@ const Blog = () => {
         variant="h3"
         fontWeight="bold"
         align="center"
-        sx={{ mt:10, fontFamily: 'GV', fontSize: { xs: '2rem', md: '2.8rem' } }}
+        sx={{ mt:10, fontFamily: 'GV', fontSize: { xs: '2rem', md: '2.8rem' } ,background: 'linear-gradient(90deg, #00f2fe, #4facfe, #00c9a7, #43e97b)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent', }}
       >
         My Blogs
       </Typography>

@@ -57,7 +57,9 @@ const BlogDetail = () => {
             variant="h3"
             fontWeight="bold"
             gutterBottom
-            sx={{mt:10, fontFamily: 'GV',textAlign:"center", fontSize: { xs: '2rem', md: '3rem' } }}
+            sx={{mt:10, fontFamily: 'GV',textAlign:"center",background: 'linear-gradient(90deg, #00f2fe, #4facfe, #00c9a7, #43e97b)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent', fontSize: { xs: '2rem', md: '3rem' } }}
           >
             {blog.title}
           </Typography>

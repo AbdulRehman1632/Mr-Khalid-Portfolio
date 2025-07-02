@@ -104,7 +104,7 @@ const FullscreenSlider = ({ slides }) => {
   gutterBottom
   sx={{
     fontWeight: 'bold',
-    fontSize: { xs: '2.5rem', sm: '3rem', md: '4rem', lg: '5rem' },
+    fontSize: { xs: '1.4rem', sm: '3rem', md: '4rem', lg: '5rem' },
     lineHeight: 1.2,
     maxWidth: { xs: '90%', sm: '85%', md: '70%', lg: '60%' },
     textAlign: { xs: 'center', sm: 'left' },
@@ -132,7 +132,7 @@ const FullscreenSlider = ({ slides }) => {
       whiteSpace: 'nowrap',
     //   overflow: 'hidden',
     //   textOverflow: 'ellipsis',
-      fontSize: { xs: '1.4rem', sm: '2rem', md: '3rem' },
+      fontSize: { xs: '1.3rem', sm: '2rem', md: '3rem' },
     }}
   >
     {slide.titleBottom}
@@ -142,7 +142,7 @@ const FullscreenSlider = ({ slides }) => {
 {/* <Typography sx={{fontSize:"1.2em",}}>
     {slide.para}
 </Typography> */}
-<Typography sx={{ fontSize: "1.2em" }}>
+<Typography sx={{ fontSize: "1.1em" }}>
   {slide.para.split('Muhammad Khalid Ali').map((part, index, arr) => (
     <React.Fragment key={index}>
       {part}
@@ -156,7 +156,7 @@ const FullscreenSlider = ({ slides }) => {
 </Typography>
 
 
-         <Button
+         {/* <Button
   variant="outlined"
   sx={{
     borderColor: '#fff',
@@ -173,7 +173,7 @@ const FullscreenSlider = ({ slides }) => {
   }}
 >
   {slide.buttonText}
-</Button>
+</Button> */}
 
           </SlideContent>
         </Slide>
