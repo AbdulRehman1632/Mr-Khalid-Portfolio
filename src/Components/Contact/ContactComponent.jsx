@@ -60,7 +60,7 @@ const ContactComponent = () => {
     CONTACT ME
   </Typography>
 
-  <Typography
+  {/* <Typography
     variant="body1"
     sx={{
       marginTop: '15px',
@@ -76,7 +76,7 @@ const ContactComponent = () => {
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus vel amet
     commodi veritatis quis consectetur nihil, delectus earum voluptates numquam
     error alias mollitia, nam ex ipsa officiis? Nemo, totam sit!
-  </Typography>
+  </Typography> */}
 </Box>
             <form>
               <TextField

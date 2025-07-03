@@ -62,7 +62,7 @@ const VideoComponent = () => {
           variant="h3"
           align="center"
           gutterBottom
-          sx={{ fontWeight: 'bold', mb: 4,marginTop:"20px",background: 'linear-gradient(90deg, #00f2fe, #4facfe, #00c9a7, #43e97b)',
+          sx={{ fontWeight: 'bold', mb: 4,marginTop:"30px",background: 'linear-gradient(90deg, #00f2fe, #4facfe, #00c9a7, #43e97b)',
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',fontFamily:"GV" }}
         >

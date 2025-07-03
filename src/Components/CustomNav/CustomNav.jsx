@@ -15,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Link } from 'react-router-dom'; // ✅ Fix import
 
 const CustomNav = () => {
@@ -51,13 +51,21 @@ const CustomNav = () => {
       >
         43, Block B Street No. 4 S.M.C.H.S Karachi – Pakistan
       </Typography>
-      <Typography variant="body1">Email: hello@example.com</Typography>
-      <Typography variant="body1">Phone: +123 456 7890</Typography>
+      <Typography variant="body1">Email: thecrewfilms.films@gmail.com</Typography>
+      <Typography variant="body1">Phone: +92 300 8264264</Typography>
 
       <Box sx={{ mt: 3, display: 'flex', gap: 2, justifyContent: isMobile ? 'center' : 'flex-start' }}>
-        <FacebookIcon sx={{ fontSize: 30, cursor: 'pointer' }} />
-        <InstagramIcon sx={{ fontSize: 30, cursor: 'pointer' }} />
-        <TwitterIcon sx={{ fontSize: 30, cursor: 'pointer' }} />
+           <a href="https://www.facebook.com/muhammad.k.ali.583" target="_blank" rel="noopener noreferrer">
+        <FacebookIcon sx={{ fontSize: 30, cursor: 'pointer',color:'white' }} />
+      </a>
+
+      <a href="https://www.instagram.com/akmafia/3668136390161926847/?hl=en" target="_blank" rel="noopener noreferrer">
+        <InstagramIcon sx={{ fontSize: 30, cursor: 'pointer',color:'white' }} />
+      </a>
+
+      <a href="https://www.youtube.com/@TheCrewfilm" target="_blank" rel="noopener noreferrer">
+        <YouTubeIcon sx={{ fontSize: 30, cursor: 'pointer',color:'white' }} />
+      </a>
       </Box>
     </Box>
   );

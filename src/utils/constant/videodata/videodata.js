@@ -149,13 +149,6 @@ export const videoList = [
     category: 'TV Commercials',
   },
 
-
-
-
-
-
-
-
      {
     title: 'Coke Promo Animated TVC',
     preview: 'https://res.cloudinary.com/dpm8fa6gn/video/upload/v1751462654/TheCrewFilms_Showreel_Montage_ljtihg.mp4',
@@ -180,21 +173,6 @@ export const videoList = [
     videoUrl: 'https://youtu.be/2klEZrB5log',
     category: 'TV Commercials',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     title: 'Dukhtar',
